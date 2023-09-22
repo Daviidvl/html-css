@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+body p{
+    text-align: justify;
+    margin: 1em;
+}
+
+header {
+    background-color: #01BAEF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.541);
+    
+}
+
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #51CB20;
+    
+}
+
+nav a{
+    padding: 7px;
+    border-radius: 8px;
+    transition-duration: .5s;
+}
+
+nav a:hover{
+    background-color: #aae294;
+    text-decoration: underline;
+    color: #255e10cb;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+
+.profile-photo {
+    display:flex;
+    margin: auto;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 150px;
+    
+}
+
+.profile-photo:hover{
+    scale: 1.1;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+footer > p{
+    background-color: #51CB20;
+    font-size: 15px;
+    margin:auto;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    color: #ffff;
+}
