@@ -50,6 +50,7 @@ section.main{
 }
 .items-menu a.contact-btn:hover{
     border:0;
+    text-decoration: underline;
 }
 
 .mockup{display: block;width:100%;color:white;text-align:center;padding-top:100px;}
@@ -147,6 +148,10 @@ section.cta a{
     color: #0F3FD3;
 }
 
+section.cta a:hover{
+    text-decoration: underline;
+}
+
 section.beneficios{
     padding:50px 0;
 }
@@ -173,15 +178,38 @@ section.beneficios{
 }
 
 .lista-beneficios img{
+
     display: inline-block;
     vertical-align: middle;
     width:70px;
 }
+
+.lista-beneficios a {
+    background-color: #0F3FD3;
+    font-size: 17px;
+    width: 150px;
+    height: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.lista-beneficios a:hover{
+    text-decoration: underline;
+}
+
+
 .img-beneficios{
     width: 60%;
 }
 
 .img-beneficios img{max-width: 100%;}
+
+
 
 
 section.depoimentos{
@@ -262,6 +290,8 @@ li.slick-active button{
 .slick-slide:focus { outline: none; }
 
 @media screen and (max-width: 768px) {
+    .lista-beneficios a {
+        max-width: 100%;}
 
     .lista-beneficios,.img-beneficios{
         width:100%;
