@@ -370,6 +370,25 @@ footer a {
 footer a:hover{
     border-bottom:2px solid #FFDD33;
 }
+.items-menu-mobile{
+    width:50%;
+    text-align: right;
+    display: none;
+}
+
+.items-menu-mobile i{
+    color:rgb(255, 255, 255);
+    position: relative;
+    top:15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.menu-mobile > a:hover{
+    text-decoration: underline;
+    border-bottom: 1px solid #37385500; 
+
+}
 
 
 
@@ -377,6 +396,52 @@ footer a:hover{
 
 @media screen and (max-width: 768px) {
     
+    .items-menu-mobile{
+        display: block;
+       
+    }
+
+    .menu-mobile{
+        
+        opacity: 0;
+        transition: 0.5s;
+        position: absolute;
+        left:0;
+        top:66px;
+        background-color: #E9EAF3;
+        width:100%;
+        padding: 0px 0 0px;
+        text-align: center;
+    }
+
+    .show{
+        opacity: 1;
+    }
+    .hide{
+        opacity: 0;
+    }
+
+    .menu-mobile a{
+        text-align:center;
+        display: block;
+        margin:8px 0;
+        border-radius: 5px;
+        color:rgb(40,40,40);
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom:1px solid rgba(0, 0, 0, 0.308);
+        box-shadow: 5px 5px 10px rgba(63, 63, 63, 0.103);
+        padding:8px 0;
+    }
+
+   
+
+
+
+
+    section.main .items-menu{
+        display: none;
+    }
     
     .lista-beneficios a {
         max-width: 100%;}
