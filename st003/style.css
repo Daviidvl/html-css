@@ -87,7 +87,7 @@ section.porque-nos > .center{
 
 section.porque-nos > .center > p{
     font-size: 14px;
-    color:#ccc;
+    color:#696969;
     text-align: center;
     width:100%;
 }
@@ -113,7 +113,7 @@ section.porque-nos > .center > p{
 
 .box-diferenciais p{
     font-size: 13px;
-    color: #7E92AC;
+    color: #696969;
     margin-bottom: 20px;
 }
 
@@ -127,8 +127,13 @@ section.cta{
     text-align: center;
 }
 
-section.cta h2,
+section.cta h2{
+    font-weight: normal;
+    margin:10px 0;
+ }
+    
 section.cta h4{
+    padding-bottom: 15px;
     font-weight: normal;
     margin:10px 0;
 }
@@ -167,7 +172,7 @@ section.beneficios{
 }
 
 .lista-beneficios p{
-    color: #7E92AC;
+    color: #696969;
    vertical-align: middle;
    font-size: 14px;
 }
@@ -233,11 +238,12 @@ section.depoimentos > h1{
     text-align: center;
     padding:15px;
     border-radius:10px;
+    box-shadow: 5px 5px 10px rgba(134, 134, 134, 0.281);
 }
 
 .container-slider-single p{
     margin:15px 0;
-    color:#7E92AC;
+    color:#696969;
     font-size: 14px;
 }
 
@@ -287,9 +293,91 @@ li.slick-active button{
 	color: #373855;
 }
 
+section.contato{
+    padding: 40px 0;
+    text-align: center;
+    
+}
+
+section.contato h1{
+    font-size: 50px;
+}
+
+section.contato form{
+    width: 100%;
+}
+
+.contato input[type=text],
+.contato input[type=e-mail]
+
+{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #fcfdff;
+    border: 1px solid #c3cce8;
+    padding-left: 10px ;
+
+}
+
+.contato textarea{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #fcfdff;
+    border: 1px solid #c3cce8;
+    padding: 10px ;
+    resize: vertical;
+    
+
+}
+
+.contato input[type=submit]{
+    width: 100%;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    background: #0F3FD3;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+footer{
+    background-image:url(images/banner_meio.svg);
+    background-size: cover;
+    background-position: center;
+    padding:20px 10px;
+    color:white;
+    text-align: center;
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    border-bottom:2px solid #FFDD33;
+}
+
+
+
 .slick-slide:focus { outline: none; }
 
 @media screen and (max-width: 768px) {
+    
+    
     .lista-beneficios a {
         max-width: 100%;}
 
