@@ -1,0 +1,52 @@
+@font-face {
+    font-family:'love';
+    src: url(fonte/DS-DIGI.TTF) format(truetype);
+}
+body{
+    background: #50C8FF;
+    font: normal 15pt arial;
+    
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    
+
+}
+div#msg{
+    font-family: 'love';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(68, 68, 68, 0.432);
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+
+}
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+div#foto{
+    text-align: center;
+}
+
+footer{
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
