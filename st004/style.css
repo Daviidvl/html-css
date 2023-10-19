@@ -2,9 +2,11 @@
     font-family:'love';
     src: url(fonte/DS-DIGI.TTF) format(truetype);
 }
+
 body{
     background: #50C8FF;
     font: normal 15pt arial;
+    margin:0px;
     
 }
 
