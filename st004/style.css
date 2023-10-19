@@ -16,7 +16,6 @@ header{
 section{
     background: transparent;
     border-radius: 10px;
-    padding: 10px;
     margin: auto;
     
 
@@ -27,7 +26,6 @@ div#msg{
     font-weight: bold;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgba(68, 68, 68, 0.432);
     width: 150px;
     padding: 5px;
     border-radius: 5px;
@@ -35,13 +33,15 @@ div#msg{
 
 }
 img{
-    height: 400px;
-    width: 400px;
+    text-align: center;
+    height: 350px;
+    width: 350px;
     border-radius: 200px;
     margin-top: 20px;
 }
 div#foto{
     text-align: center;
+    margin: auto;
 }
 
 footer{
@@ -50,3 +50,5 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+
