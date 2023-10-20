@@ -1,6 +1,5 @@
 function updateTime (){
     var msg = document.getElementById('msg')
-    var dat = document.getElementById('dat')
     var img = document.getElementById('imagem')
     var data = new Date ()
     var hora = data.getHours()
