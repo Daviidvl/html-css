@@ -13,6 +13,7 @@ html, body {
 body {
     background: url(pacote2/imagens/fundoabstrato.jpg) no-repeat center ;
     background-size:cover ;
+    background-attachment: fixed ;
    
     
 }
