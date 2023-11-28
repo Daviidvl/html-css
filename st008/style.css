@@ -43,7 +43,7 @@ main {
 .filme {
     position: relative;
     overflow: hidden;
-    flex: 0 0 24%;
+    flex: 0 0 35%;
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ddd;
