@@ -11,16 +11,18 @@
     <img src="imagens/facebook-logo.png" alt="">
     <div class="form">
         <p>Entrar no Facebook</p>
-        <input type="email" name="" id="" placeholder="Email ou telefone">
-        <br>
-        <input type="password" name="" id="" placeholder="Senha">
-        <br>
-        <input type="submit" value="Entrar" class="entrar">
-        <br>
-        <a href="#">Esqueceu a conta ?</a>
-        <br>
-        <br>
-        <input type="button" value="Criar nova conta" class="nova">
+        <form action="cadastro.php" method="post" autocomplete="on"> 
+            <input type="email" name="" id="" placeholder="Email ou telefone" autocomplete="email">
+            <br>
+            <input type="password" name="" id="" placeholder="Senha" autocomplete="current-password">
+            <br>
+            <input type="submit" value="Entrar" class="entrar">
+            <br>
+            <a href="#">Esqueceu a conta ?</a>
+            <br>
+            <br>
+            <input type="button" value="Criar nova conta" class="nova">
+        </form>
 
 
 
