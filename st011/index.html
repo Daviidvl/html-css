@@ -1,85 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Facebook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-    </style>
-
+    <title>Login Facebook</title>
 </head>
-
 <body>
     <header>
         <div class="center">
             <div class="logo">
-                <h1>Feicebuki</h1>
-
-            </div><!--logo-->
-            <form method="post" class="form-login">
+                <h2>Feicibuki</h2>
+            </div>
+            <form action="" class="form-login">
                 <div class="form-element">
-                    <p>Email ou Telefone</p>
-                    <input type="email" name="" id="">
-                </div><!--form-element-->
+                    <p>Email ou Telefone:</p>
+                    <input type="email" name="email" id="">
+                </div>
                 <div class="form-element">
                     <p>Senha:</p>
-                    <input type="password" name="" id="">
-                </div><!--form-element-->
+                    <input type="password" name="email" id="">
+                </div>
                 <div class="form-element">
-                    <input type="submit" name="acao" value="Enviar">
-                </div><!--form-element-->
-            </form><!--form-login-->
+                    <input type="submit" value="Entrar" name="acao">
+                </div>
+                <div class="clear"></div>
+            </form>
             <div class="clear"></div>
-        </div><!--center-->
+        </div>
     </header>
+
     <section class="main">
         <div class="center">
             <div class="img-pessoas">
+                <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
                 <img src="imagebs/img1.png" alt="">
-
-            </div><!--img-pessoas-->
-
+            </div>
             <div class="abrir-conta">
-                <h2>Abra sua conta</h2>
-                <h3>É gratuito e sempre será</h3>
-
-                <form class="criar-conta">
-
+                <h2>Abra uma conta</h2>
+                <h3>É rápido e fácil.</h3>
+                <form action="" class="criar-conta">
                     <div class="w50">
-                        <input type="text" placeholder="Nome">
-                    </div><!--w50-->
-
+                        <input type="text" placeholder="Nome" name="" id="">
+                    </div>
                     <div class="w50">
-                        <input type="text" placeholder="Sobrenome">
-                    </div><!--w50-->
-
+                        <input type="text" placeholder="Sobreome" name="" id="">
+                    </div>
                     <div class="w100">
-                        <input type="email" placeholder="E-mail">
-                    </div><!--w100-->
-
+                        <input type="email"  placeholder="Email" name="" id="">
+                    </div>
                     <div class="w100">
-                        <input type="password" placeholder=" Senha">
-                    </div><!--w100-->
-
+                        <input type="password" placeholder="Senha" name="" id="">
+                    </div>
                     <div class="w100">
-                        <input type="submit" name="acao" value="Cadastre-se">
-
-                    </div><!--w100-->
-
+                        <h3>Data de Nascimento</h3>
+                        <select name="nascimento-dia" id="data" class="nascimento">
+                            <option value="1">8</option>
+                        </select>
+                        <select name="nascimento-mes" id="data" class="nascimento">             
+                            <option value="6">Junho</option>
+                        </select>
+                        <select name="nascimento-ano" id="data" class="nascimento">
+                            <option value="6">2002</option>
+                            
+                        </select>
+                    </div>
+                    <div class="w100">
+                        <h3>Gênero</h3>
+                        <div class="input-radio">
+                            <input type="radio" value="masculino" name="sexo" id="">
+                            <label for="">Masculino</label>
+                        </div>
+                        <div class="input-radio">
+                            <input type="radio" value="feminino" name="sexo" id="">
+                            <label for="">Feminino</label>
+                        </div>
+                        <div class="input-radio">
+                            <input type="radio" value="personalizado" name="sexo" id="">
+                            <label for="">Personalizado</label>
+                        </div>
+                    </div>
+                    <div class="w50">
+                        <input type="submit" value="Cadastre-se">
+                    </div>
                     <div class="clear"></div>
-
-                </form><!--criar conta-->
-            </div><!--abrir-conta-->
-
+                </form>
+            </div>
             <div class="clear"></div>
+        </div>
+    </section>
 
-        </div><!--center-->
+    <section class="linguas">
+        <div class="center">
+            <nav>
+                <ul>
+                    <li><a class="selected" href="">Português (Brasil)</a></li>
+                    <li><a href="">Português (Brasil)</a></li>
+                    <li><a href="">Português (Brasil)</a></li>
+                    <li><a href="">Português (Brasil)</a></li>
+                    <li><a href="">Português (Brasil)</a></li>
+                    <li><a href="">Português (Brasil)</a></li>
+                </ul>
+            </nav>
+        </div>
 
+        <div class="center">
+            <nav>
+                <ul>
+                    <li><a href="">Cadastre-se</a></li>
+                    <li><a href="">Entrar</a></li>
+                    <li><a href="">Messenger</a></li>
+                </ul>
+            </nav>
+        </div>
     </section>
 
 </body>
-
 </html>
