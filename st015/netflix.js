@@ -1,4 +1,3 @@
-// --------------sticky-nevbar-----------
 function scrolling() {
     let nav1 = document.querySelector(".netflix-navbar");
     let y = document.documentElement.scrollTop;
