@@ -2,82 +2,77 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.dark{
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+img{
+    width: 167px;
+    height: 40px;
+    margin: 20px 20px;
 }
 
 body{
     background-image: url(imagens/1_5lyavS59mazOFnb55Z6znQ.png);
+    background-repeat: no-repeat;
     background-size: cover;
-}
-
-.logo img{
-    width: 166px;
-    height: 45px;
-    margin:30px;
-}
-
-form{
-    text-align: center;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.589);
-    width: 450px;
-    height: 600px;
-}
-
-form h2{
-    margin-left: -285px;
-    padding-top: 50px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-input{
-    margin-top: 30px;
-    border: none;
-    padding: 13px;
-    border-radius: 5px;
-    width: 360px;
-    background-color:#333333 ;
-}
-
-input.senha{
-    margin-bottom: 30px;
-}
-
-
-a.entre{
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    padding: 10px;
-    border-radius: 4px ;
-    color: #ffff;
-    background-color:red ;
-    width: 100px;
-}
-
-h3{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #929292;
-    margin-top: 20px;
-    margin-left: -140px;
-}
-
-a{
-    color: whitesmoke;
-    text-decoration: none;
-
-}
-
-p{
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #929292;
-    margin-top: 20px;
+    height: 900px;
     
 }
 
-.pai{
-    height: 900px;
-    background-color: rgba(0, 0, 0, 0.301);
+div.container{
+    width:450px ;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.699);
+    margin: auto;
+}
+
+form{
+    padding: 50px;
+}
+
+input{
+    width: 355px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 8px 0;
+}
+
+.buttom{
+    width: 355px;
+    height: 50px;
+    background-color: #E50914;
+    border-radius: 7px;
+    padding: 14px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.help{
+    float: right;
+}
+
+a.help{
+    color: #ccc;
+
+}
+
+.novo{
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: #ccc;
+    font-size: 14px;
 }

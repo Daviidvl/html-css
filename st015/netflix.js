@@ -10,7 +10,7 @@ function scrolling() {
 }
 window.onscroll = scrolling;
 
-// Function to fetch data from API and create image elements
+
 function fetchAndDisplayData(url, container) {
     fetch(url)
         .then(response => {
@@ -36,7 +36,7 @@ function fetchAndDisplayData(url, container) {
         });
 }
 
-// Fetch and display data for each slide
+
 let slide1 = document.querySelector(".slide1");
 fetchAndDisplayData("https://api.themoviedb.org/3/movie/popular?api_key=518ae89aa3a583207617957aae8e6fdc", slide1);
 
