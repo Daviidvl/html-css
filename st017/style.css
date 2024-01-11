@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    height: 100%;
+    transition:0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+.custom-checkbox {
+    width: 300px;
+    height: 80px;
+}
+
+.custom-checkbox input#status {
+    display: none;
+}
+
+.custom-checkbox input#status + label {
+    height: 100%;
+    width: 100%;
+}
+
+.custom-checkbox input#status + label > .status-switch {
+    cursor: pointer;
+    width: 250px;
+    height: 90px;
+    margin-top: 20px;
+    position: relative;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+    padding: 3px;
+    border-radius: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+.custom-checkbox input#status + label > .status-switch:before,
+.custom-checkbox input#status + label > .status-switch:after {
+    border-radius: 2px;
+    height: calc(100% - 8px);
+    width: calc(50% - 8px);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.custom-checkbox input#status + label > .status-switch:before {
+    background-color: rgb(114, 114, 114);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+    left: 3px;
+    z-index: 5;
+    content: attr(data-unchecked);
+    border-radius: 200px;
+}
+
+.custom-checkbox input#status + label > .status-switch:after {
+    right: 0;
+    content: attr(data-checked);
+}
+
+.custom-checkbox input#status:checked + label > .status-switch {
+    background-color: #020202;
+    border: 3px solid white;
+    color: #ffffff;
+}
+
+.custom-checkbox input#status:checked + label > .status-switch:after {
+    left: 0;
+    content: attr(data-unchecked);
+}
+
+.custom-checkbox input#status:checked + label > .status-switch:before {
+    color: #000000;
+    left: 50%;
+    content: attr(data-checked);
+}
+
+body.dark-mode {
+    background-color: #270047; 
+    color: #fff; 
+}
