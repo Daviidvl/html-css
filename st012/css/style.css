@@ -184,13 +184,19 @@ section.veiculos-destaque .container{
 	width: 33.3%;
 	text-align: left;
 	
+	
 }
 
 .vitrine-destaque .carro-img{
 	width: 100%;
 	padding-top: 100%;
-	border:8px solid white;
+	border:8px solid rgb(255, 255, 255);
 	background-size: 100% 100%;
+	
+}
+
+.vitrine-destaque .carro-img :hover{
+	transform: scale(1.1);
 }
 
 .vitrine-destaque h2{
