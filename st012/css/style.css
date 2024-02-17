@@ -670,7 +670,7 @@ section.sobre .container{
 section.sobre .img-destaque-sobre{
 	width: 100%;
 	padding-top:60%;
-	background-color: rgb(220,220,220);
+	background-image: url('../imagens/cartaz.jpg');
 }
 
 section.sobre .descricao-autor{
