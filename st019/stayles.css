@@ -1,14 +1,20 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #daffd180;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: green;
     color: white;
     text-align: center;
     padding: 1em 0;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
 }
 
 nav ul {
@@ -23,9 +29,14 @@ nav li {
 }
 
 nav a {
+    margin: 20px;
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+nav a:hover{
+    color: rgb(24, 66, 35);
 }
 
 .produtos {
@@ -59,12 +70,12 @@ input[type="number"] {
 }
 
 .preco {
-    color: #4CAF50;
+    color: #DF2233;
     font-weight: bold;
 }
 
 .adicionar-carrinho {
-    background-color: #4CAF50;
+    background-color: #008000;
     color: white;
     padding: 8px 12px;
     border: none;
@@ -72,11 +83,11 @@ input[type="number"] {
 }
 
 .adicionar-carrinho:hover {
-    background-color: #45a049;
+    background-color: #ff0000;
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #008000;
     color: white;
     text-align: center;
     padding: 1em 0;
