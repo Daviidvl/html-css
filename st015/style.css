@@ -11,9 +11,9 @@
     background-color: rgba(0, 0, 0, 0.377);
 }
 img{
-    width: 167px;
-    height: 40px;
-    margin: 20px 20px;
+    width: 134px;
+    height: 28px;
+    margin: 2rem;
 }
 
 body{
@@ -39,11 +39,12 @@ form{
 input{
     width: 305px;
     height: 50px;
-    border: none;
+    border: 1px solid #66686C;
     border-radius: 7px;
     padding: 5px;
     margin: 8px 0;
-    color: black;
+    background-color: rgba(59, 56, 90, 0.267);
+    
 }
 
 button{
@@ -66,7 +67,17 @@ a.help{
 }
 
 .novo{
-    margin-top: 50px;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color:#444342a1 ;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.novo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
 }
 
 a{
@@ -76,4 +87,7 @@ a{
 p{
     color: #ccc;
     font-size: 14px;
+}
+.ou{
+    text-align: center;
 }
