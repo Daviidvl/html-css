@@ -29,6 +29,7 @@ form{
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
+    padding: 2rem;
 }
 
 input{
@@ -47,6 +48,7 @@ button{
     border-radius: 5px;
     border: 1px solid transparent;
     height: 1.5rem;
+    width: 160px;
     color:#945d04f1;
 }
 
